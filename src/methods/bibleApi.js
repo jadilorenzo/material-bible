@@ -4,7 +4,6 @@ import bibleverses from "bibleverses";
 
 export const getVerse = async (verse: string) => {
   return await bibleverses.retrievePassage(verse);
-  // return true;
 };
 
 export const isVerse = async (verse: string) => {
