@@ -1,5 +1,3 @@
-// import fetch from "isomorphic-fetch";
-
 import bibleverses from "bibleverses";
 
 export const getVerse = async (verse: string) => {
